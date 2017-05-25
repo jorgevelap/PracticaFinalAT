@@ -1,0 +1,83 @@
+#main_cont, #colections, #intstalations{
+	margin-top:90px;
+	display:none;
+}
+
+#myModal{
+	margin:0 auto;
+	margin-top:90px;
+	width:1200px;
+}
+.modal-content{
+	background-color:#63FF00;	
+}
+
+
+#nuevacolecc{
+	background-color:blue;
+}
+
+#Seleccion{
+	background-color:green;
+}
+
+#coleccion{
+	background-color:red;
+}
+
+#home2_3{
+	margin-top:40px;
+   border: 1px solid #1E679A;
+
+} 
+}
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+
+.navbar-nav {
+	width: 100%;
+	text-align: center;
+}
+
+
+.navbar-nav > li {
+    float: none;
+    display: inline-block;
+}
+
+#titulo{
+	font-size:30px;
+	color:red;
+}
+#Selected{ border:2px inset #07fbe7;}
+#Usuario, #Seguidores{overflow-y: scroll; height:70vh;border:2px inset #07fbe7;}
+
+
+#draggable { width: 100px; height: 100px; padding: 0.5em; }
+#droppable { width: 200px; height: 200px; padding: 0.5em; float: left; margin: 10px; }
+
+
+#widget-droppable { width: 150px; height: 150px; padding: 0.5em; float: left; margin: 10px; background-color:red; }
+
